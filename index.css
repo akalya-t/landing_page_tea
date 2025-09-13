@@ -1,0 +1,53 @@
+*{margin: 0px; padding :0px; background-color: #EEE3D6;
+  .poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}  }
+.para{ padding: 12px; margin:5px}
+h2{ font-size: 35px;line-height: 1  ; padding :12px}
+h2 i.fa {font-size: 60px;}
+h3{ color: #501021;  margin: 5px;}
+.typ{ display: flex; flex-wrap: wrap;}
+
+.box1 { width: 250px; height :290px; box-shadow:0 4px 8px rgba(0,0,0,1)  ; border-radius: 8px; display: flex; flex-direction:column ; justify-content : center; align-items:center ; margin :7px  }
+
+.box2 {width: 250px; height :290px; box-shadow:0 4px 8px rgba(0,0,0,1)  ; border-radius: 8px; display: flex; flex-direction:column ; justify-content : center; align-items:center; margin: 7px}
+
+.box3{width: 250px; height :290px; box-shadow:0 4px 8px rgba(0,0,0,1)  ; border-radius: 8px; display: flex; flex-direction:column ; justify-content : center; align-items:center ; margin:7px}
+
+.box1 .fa-solid { font-size: 40px;}
+.box1 p { padding:19px;}
+.box2 .fa-solid {font-size:40px; }
+.box2 p { padding :19px }
+.box3 .fa-brands{font-size: 40px}
+.box3 p { padding :19px}
+
+
+ .med {display: flex; flex-wrap: wrap;}
+
+.rect1 { width: 90%; height :8%; box-shadow:0 4px 8px rgba(0,0,0,1)  ; border-radius: 8px; display: flex; flex-direction:row ; flex-wrap:wrap  ; margin :7px ; padding:12px}
+
+.rect2 { width: 90%; height :8%; box-shadow:0 4px 8px rgba(0,0,0,1)  ; border-radius: 8px; display: flex; flex-direction:row ; flex-wrap:wrap  ; margin :7px ; padding:12px}
+
+.rect3 { width: 90%; height :8%; box-shadow:0 4px 8px rgba(0,0,0,1)  ; border-radius: 8px; display: flex; flex-direction:row ; flex-wrap:wrap  ; margin :7px ; padding:12px}
+
+.rect4 { width: 90%; height :8%; box-shadow:0 4px 8px rgba(0,0,0,1)  ; border-radius: 8px; display: flex; flex-direction:row ; flex-wrap:wrap  ; margin :7px ; padding:12px}
+
+
+.rect1 i,.rect2 i, .rect3 i,.rect4 i {justify-content:center; font-size: 40px; }
+
+.txt { display: flex;  flex-direction: column; padding : 13px ; flex-wrap: wrap;}
+#ben { padding: 8px;}
+
+.ayur p, .ayur ul { margin:15px;padding: 8px ;}
+footer { background-color: #501021; width: 100%; height:140px; text-align: center;}
+
+.footer-box a,.footer-box h4 { color: #EEE3D6; background-color: #501021; text-decoration: none; display: block; padding:4px}
+
+.footer-box span { color: #EEE3D6; background-color: #501021; text-decoration: none; display: block; padding:5px; font-size: 0.9em;}
+.footer-box hr {border:0}
+
+@media screen and (max-width:300px) {.rect1 i,.rect2 i, .rect3 i,.rect4 i {font-size:30px;}}
+@media screen and (max-width:100px)
+{.rect1 i,.rect2 i, .rect3 i,.rect4 i{font-size:0px}}
