@@ -50,4 +50,4 @@ footer { background-color: #501021; width: 100%; height:140px; text-align: cente
 
 @media screen and (max-width:300px) {.rect1 i,.rect2 i, .rect3 i,.rect4 i {font-size:30px;}}
 @media screen and (max-width:100px)
-{.rect1 i,.rect2 i, .rect3 i,.rect4 i{font-size:0px}}
+{.rect1 i,.rect2 i, .rect3 i,.rect4 i{font-size:13px}}
